@@ -2,11 +2,27 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 860px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px; 
+#search {
+    font-size: .7em;
+    height: 4.2em;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    border-radius: 5.5px;
+    border: 2px solid #ddd;
+    color: grey;
+    margin: 20px auto;
+
 }
+
+
+.gallery {
+    display: grid;
+  max-width: 860px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+
 
